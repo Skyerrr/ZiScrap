@@ -25,4 +25,4 @@ header = {
     'Access-Control-Max-Age': '3600',
 }
 
-Thank you. Any suggestions is appreciated.
+**Thank you**. Any suggestions is appreciated.
