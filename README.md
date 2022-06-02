@@ -9,7 +9,7 @@ Using **BeautifulSoup** and **Selenium** to scrap Address, price and link from Z
 
 Zillow has protections against scrapping. If we try to scrap only with BeautifulSoup, Zillow will protect against bots. To bypass this first captcha barrier, we can add headers, but we will only be able to scrap the first nine adverts per page because Zillow uses javascript to load the page as demand. Selenium will be used to force the page to load so we can use BeautifulSoup to scrap all the adverts.
 
-The code only scrap the first four pages of Zillow to avoid the next captcha barrier. Using a **VPN** every four pages will scrap all pages without a problem. Maybe if we add more delay between pages, we can bypass this barrier.
+The code only scrap the first four pages of Zillow to avoid the next captcha barrier. Using a **VPN** every four pages will scrap all pages without a problem. Another way that can work is adding delays between pages, making Selenium look more human.
 
 My intention is for research only. The code will remain scrapping four pages only.
 
